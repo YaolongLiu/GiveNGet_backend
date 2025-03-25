@@ -16,5 +16,7 @@ public record Item(
         List<String> imageUrls,
         String location,
         String donorId,
+        String[] whoIntrest,
+        String receiverId,
         LocalDateTime createdAt
 ) {}

@@ -42,6 +42,8 @@ public class ItemService {
                         updatedItem.imageUrls(),
                         updatedItem.location(),
                         updatedItem.donorId(),
+                        updatedItem.whoIntrest(),
+                        updatedItem.receiverId(),
                         updatedItem.createdAt()
                 ))
                 .map(itemRepository::save);
